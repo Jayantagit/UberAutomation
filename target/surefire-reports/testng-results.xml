@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Uber Test automtion regression suite" duration-ms="29477" started-at="2020-11-22T11:52:17Z" finished-at="2020-11-22T11:52:47Z">
+    <groups>
+    </groups>
+    <test name="Uber Feature Testing - Home Page" duration-ms="13863" started-at="2020-11-22T11:52:17Z" finished-at="2020-11-22T11:52:31Z">
+      <class name="com.qa.uber.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.uber.tests.HomePageTest@3c49fab6]" name="setUp" is-config="true" duration-ms="10440" started-at="2020-11-22T11:52:17Z" finished-at="2020-11-22T11:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.uber.tests.HomePageTest@3c49fab6]" name="verifyHomePageTitleTest" duration-ms="561" started-at="2020-11-22T11:52:28Z" finished-at="2020-11-22T11:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="verifyLocationValueTest()[pri:2, instance:com.qa.uber.tests.HomePageTest@3c49fab6]" name="verifyLocationValueTest" duration-ms="1045" started-at="2020-11-22T11:52:29Z" finished-at="2020-11-22T11:52:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLocationValueTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.uber.tests.HomePageTest@3c49fab6]" name="tearDown" is-config="true" duration-ms="1373" started-at="2020-11-22T11:52:30Z" finished-at="2020-11-22T11:52:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.uber.tests.HomePageTest -->
+    </test> <!-- Uber Feature Testing - Home Page -->
+    <test name="Uber Feature Testing - Elevate Page" duration-ms="14521" started-at="2020-11-22T11:52:32Z" finished-at="2020-11-22T11:52:47Z">
+      <class name="com.qa.uber.tests.ElevatePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.uber.tests.ElevatePageTest@23aae55]" name="setUp" is-config="true" duration-ms="7484" started-at="2020-11-22T11:52:32Z" finished-at="2020-11-22T11:52:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ElevateSetup()[pri:0, instance:com.qa.uber.tests.ElevatePageTest@23aae55]" name="ElevateSetup" is-config="true" duration-ms="5809" started-at="2020-11-22T11:52:40Z" finished-at="2020-11-22T11:52:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ElevateSetup -->
+        <test-method status="PASS" signature="verifyLinkCount()[pri:1, instance:com.qa.uber.tests.ElevatePageTest@23aae55]" name="verifyLinkCount" duration-ms="360" started-at="2020-11-22T11:52:46Z" finished-at="2020-11-22T11:52:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinkCount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.uber.tests.ElevatePageTest@23aae55]" name="tearDown" is-config="true" duration-ms="864" started-at="2020-11-22T11:52:46Z" finished-at="2020-11-22T11:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.uber.tests.ElevatePageTest -->
+    </test> <!-- Uber Feature Testing - Elevate Page -->
+  </suite> <!-- Uber Test automtion regression suite -->
+</testng-results>

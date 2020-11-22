@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Uber Test automtion regression suite" verbose="1"
+	thread-count="1" parallel="tests">
+
+	<listeners>	
+		<listener class-name="com.qa.uber.testlisteners.TestAllureListener" />
+		<listener class-name="com.qa.uber.testlisteners.ExtentReportListener" />
+	</listeners>		
+		
+	
+	<test name="Uber Feature Testing - Home Page">
+			<classes>
+			<class name="com.qa.uber.tests.HomePageTest" />
+		</classes>
+
+	</test>
+
+	<test name="Uber Feature Testing - Elevate Page">
+		<classes>
+			<class name="com.qa.uber.tests.ElevatePageTest" />
+		</classes>
+
+	</test>
+	
+
+</suite>
